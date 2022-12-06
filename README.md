@@ -10,12 +10,6 @@
 ```
 **PHP Router**, which also has rich features like Middlewares and Controllers is simple and useful router class for PHP.
 
-![Tests](https://github.com/bimacoding/php-router/actions/workflows/run-tests.yml/badge.svg)
-[![Total Downloads](https://poser.pugx.org/bimacoding/router/d/total.svg)](https://packagist.org/packages/bimacoding/router)
-[![Latest Stable Version](https://poser.pugx.org/bimacoding/router/v/stable.svg)](https://packagist.org/packages/bimacoding/router)
-[![Latest Unstable Version](https://poser.pugx.org/bimacoding/router/v/unstable.svg)](https://packagist.org/packages/bimacoding/router)
-[![License](https://poser.pugx.org/bimacoding/router/license.svg)](https://packagist.org/packages/bimacoding/router)
-
 ### Features
 - Supports GET, POST, PUT, DELETE, OPTIONS, PATCH, HEAD, AJAX and ANY request methods
 - Easy access and manage Request and Response via `symfony/http-foundation` package.
@@ -55,7 +49,7 @@ $ composer install
 ```php
 require 'vendor/autoload.php';
 
-use Buki\Router\Router;
+use Alza\Router\Router;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -80,9 +74,9 @@ $router->run();
 ```
 
 ## Docs
-Documentation page: [Buki\Router Docs][doc-url]
+Documentation page: [Alza\Router Docs][doc-url]
 
-Changelogs: [Buki\Router Changelogs][changelog-url]
+Changelogs: [Alza\Router Changelogs][changelog-url]
 
 ## Support
 [bimacoding's homepage][author-url]
@@ -102,10 +96,10 @@ Changelogs: [Buki\Router Changelogs][changelog-url]
 
 ## Contributors
 
-- [bimacoding](https://github.com/bimacoding) İzni Burak Demirtaş - creator, maintainer
+- [bimacoding](https://github.com/bimacoding) Arif iik - creator, maintainer
 
 [mit-url]: http://opensource.org/licenses/MIT
 [doc-url]: https://github.com/bimacoding/php-router/wiki
 [changelog-url]: https://github.com/bimacoding/php-router/wiki/Changelogs
-[author-url]: http://burakdemirtas.org
+[author-url]: http://vitech.asia
 [twitter-url]: https://twitter.com/bimacoding
